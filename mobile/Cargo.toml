@@ -9,8 +9,10 @@ name = "mobile"
 crate-type = ["staticlib", "cdylib"]
 
 [dependencies]
-bevy_game = { path = ".." } # ToDo
-bevy = { version = "0.15", default-features = false, features = ["android-native-activity"] }
+bevy_pong = { path = ".." }
+bevy = { version = "0.15", default-features = false, features = [
+    "android-native-activity",
+] }
 
 [target."cfg(target_os = \"ios\")".dependencies]
 objc2-avf-audio = { version = "0.3.0", features = [
@@ -25,8 +27,8 @@ bevy = { version = "0.15", default-features = false, features = [
 ] }
 
 [package.metadata.android]
-package = "me.nikl.bevygame"  # ToDo
-apk_name = "BevyGame"  # ToDo same as GAME_OSX_APP_NAME in release workflow
+package = "com.sam.bevypong"
+apk_name = "BevyPong"                     # ToDo same as GAME_OSX_APP_NAME in release workflow
 assets = "../assets"
 strip = "strip"
 resources = "../build/android/res"
@@ -37,4 +39,4 @@ target_sdk_version = 33
 
 [package.metadata.android.application]
 icon = "@mipmap/icon"
-label = "Bevy Game" # ToDo
+label = "Bevy Pong"

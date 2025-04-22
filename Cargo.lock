@@ -590,21 +590,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "bevy_game"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "bevy_asset_loader",
- "bevy_kira_audio",
- "embed-resource",
- "image",
- "log",
- "rand",
- "webbrowser",
- "winit",
-]
-
-[[package]]
 name = "bevy_gilrs"
 version = "0.15.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -923,6 +908,21 @@ dependencies = [
  "bevy_window",
  "crossbeam-channel",
  "uuid",
+]
+
+[[package]]
+name = "bevy_pong"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "bevy_asset_loader",
+ "bevy_kira_audio",
+ "embed-resource",
+ "image",
+ "log",
+ "rand",
+ "webbrowser",
+ "winit",
 ]
 
 [[package]]
@@ -2874,7 +2874,7 @@ name = "mobile"
 version = "0.1.0"
 dependencies = [
  "bevy",
- "bevy_game",
+ "bevy_pong",
  "objc2-avf-audio",
 ]
 
