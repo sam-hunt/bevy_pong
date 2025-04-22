@@ -2,6 +2,9 @@
 
 A Pong game built using the awesome [Bevy engine][bevy] featuring out of the box builds for Windows, Linux, macOS, Web (Wasm), Android, and iOS.
 
+![Menu Screen](assets/screenshots/menu.png)
+![Gameplay Screenshot](assets/screenshots/gameplay.png)
+
 > This project was created using the [Bevy Game Template](https://github.com/NiklasEi/bevy_game_template) by [Niklas Eicker](https://github.com/NiklasEi). Many thanks for providing such a comprehensive starting point for Bevy games!
 
 # What does this project give you?
