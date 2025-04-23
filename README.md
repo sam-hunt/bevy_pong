@@ -1,6 +1,7 @@
 # Bevy Pong
 
 A Pong game built using the awesome [Bevy engine][bevy] featuring out of the box builds for Windows, Linux, macOS, Web (Wasm), Android, and iOS.
+[Live web version here!](https://sam-hunt.github.io/bevy_pong).
 
 ![Menu Screen](assets/screenshots/menu.png)
 ![Gameplay Screenshot](assets/screenshots/gameplay.png)
