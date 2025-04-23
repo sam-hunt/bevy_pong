@@ -403,7 +403,7 @@ fn handle_round_end(
         }
 
         // Reset ball velocity
-        if let Some(mut velocity) = ball_query.get_single_mut().ok() {
+        if let Ok(mut velocity) = ball_query.get_single_mut() {
             velocity.direction = Vec2::new(-1.0, 0.25).normalize();
         }
 
